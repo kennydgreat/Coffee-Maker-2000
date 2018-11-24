@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Coffee_Maker_2000.Models
 {
-    interface Pressure_Valve_Interface
+   public interface Pressure_Valve_Interface
     {
-        
+        void release_pressure();
     }
 }

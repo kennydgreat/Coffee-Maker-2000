@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Coffee_Maker_2000.Models
+namespace Coffee_Maker_2000.Controllers
 {
-   public interface Warm_Plate_Interface
+    interface Coffee_Maker_System_Interface
     {
-      void keepCoffeePotWarm();
+        
     }
 }

@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Coffee_Maker_2000.Models
 {
-    public class Pressure_Relief_Valve
+    public class Pressure_Relief_Valve : Pressure_Valve_Interface
     {
         public const int OPEN = 0;
         public const int CLOSE = 1;
@@ -19,5 +19,9 @@ namespace Coffee_Maker_2000.Models
             state = CLOSE;
         }
 
+        public void release_pressure()
+        {
+            openValve();
+        }
     }
 }

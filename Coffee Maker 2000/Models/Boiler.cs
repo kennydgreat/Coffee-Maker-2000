@@ -9,6 +9,7 @@ namespace Coffee_Maker_2000.Models
     {
         public Heating_Element boiler_heating_Element = new Heating_Element();
         public Boiler_Senor boiler_Senor = new Boiler_Senor();
+        public Pressure_Valve_Interface pressure_Valve_Interface = new Pressure_Relief_Valve();
 
         
         public void startBoiling() {
@@ -16,9 +17,14 @@ namespace Coffee_Maker_2000.Models
             boiler_Senor.setStateToBoilerNotEmpty();
         }
 
+        public void stopBoiling() {
+            boiler_heating_Element.TurnOffElement();
+        }
+
         public void heatWater()
         {
             startBoiling();
+            stopBoiling();
         }
 
 

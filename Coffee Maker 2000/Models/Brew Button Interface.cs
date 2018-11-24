@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Coffee_Maker_2000.Models
 {
-    interface Brew_Button_Interface
+   public interface Brew_Button_Interface
     {
         void pressBrewButton();
 
