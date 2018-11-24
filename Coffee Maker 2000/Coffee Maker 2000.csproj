@@ -151,10 +151,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Boiler Interface.cs" />
+    <Compile Include="Models\Boiler Senor.cs" />
+    <Compile Include="Models\Boiler.cs" />
+    <Compile Include="Models\Brew Button Interface.cs" />
     <Compile Include="Models\BrewButton.cs" />
     <Compile Include="Models\Coffee.cs" />
     <Compile Include="Models\Heating Element.cs" />
     <Compile Include="Models\IndicatorLight.cs" />
+    <Compile Include="Models\Pressure Relief Valve.cs" />
+    <Compile Include="Models\Pressure Valve Interface.cs" />
+    <Compile Include="Models\Warm Plate Interface.cs" />
     <Compile Include="Models\Warm Plate Sensor.cs" />
     <Compile Include="Models\Warmer Plate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

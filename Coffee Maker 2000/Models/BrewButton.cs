@@ -6,13 +6,18 @@ using System.Web;
 
 namespace Coffee_Maker_2000.Models
 {
-    public class BrewButton
+    public class BrewButton : Brew_Button_Interface
     {
         public bool? Brew;
-        public IndicatorLight IndicatorLight;
+        public IndicatorLight indicatorLight = new IndicatorLight();
 
-        public BrewButton() {
-            IndicatorLight = new IndicatorLight();
+        public void brew() {
+            indicatorLight.TurnOnElement();
+        }
+
+        public void pressBrewButton()
+        {
+            brew();
         }
     }
 }
