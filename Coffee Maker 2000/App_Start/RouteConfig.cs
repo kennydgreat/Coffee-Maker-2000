@@ -16,7 +16,7 @@ namespace Coffee_Maker_2000
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "CoffeeMakerSystem", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

@@ -7,11 +7,16 @@ using Coffee_Maker_2000.Models;
 
 namespace Coffee_Maker_2000.Controllers
 {
-    public class CoffeeMakerSystem : Controller
+    public class CoffeeMakerSystemController : Controller
     {
         public Brew_Button_Interface brewButton = new BrewButton() ;
-        public ViewResult HomeScreen() {
+
+        public ActionResult Index() {
             return View();
-        } 
+        }
+
+        public ViewResult Brew() {
+            return View();
+        }
     }
 }
