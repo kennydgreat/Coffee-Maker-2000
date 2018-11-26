@@ -24,7 +24,7 @@ namespace Coffee_Maker_2000.Models
         public void heatWater()
         {
             startBoiling();
-            stopBoiling();
+            if (boiler_Senor.getState() == Boiler_Senor.BOILER_EMPTY) stopBoiling();
         }
 
 

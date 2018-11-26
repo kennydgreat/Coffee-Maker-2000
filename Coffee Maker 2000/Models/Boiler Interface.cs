@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Coffee_Maker_2000.Models
 {
-    interface Boiler_Interface
+   public interface Boiler_Interface
     {
         void heatWater();
     }

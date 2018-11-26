@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Coffee_Maker_2000.Models
 {
-    public class Boiler_Senor
+    public class Boiler_Senor : Boiler_Senor_Interface
     {
         public const int BOILER_EMPTY = 0;
         public const int BOILER_NOT_EMPTY = 1;
@@ -22,5 +22,13 @@ namespace Coffee_Maker_2000.Models
             state = BOILER_NOT_EMPTY;
         }
 
+        public int getState() {
+            return state;
+        }
+
+        int Boiler_Senor_Interface.boilerState()
+        {
+            return getState();
+        }
     }
 }

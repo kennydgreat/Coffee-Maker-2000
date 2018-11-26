@@ -157,6 +157,7 @@
     <Compile Include="Models\Boiler Interface.cs" />
     <Compile Include="Models\Boiler Senor.cs" />
     <Compile Include="Models\Boiler.cs" />
+    <Compile Include="Models\Boiler_Senor_Interface.cs" />
     <Compile Include="Models\Brew Button Interface.cs" />
     <Compile Include="Models\BrewButton.cs" />
     <Compile Include="Models\Coffee.cs" />
@@ -175,6 +176,11 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\brewing stage 1.gif" />
+    <Content Include="Content\brewing stage 2.gif" />
+    <Content Include="Content\coffee ready.gif" />
+    <Content Include="Content\coffeeMakerIndexImage.PNG" />
+    <Content Include="Content\filling coffee maker.gif" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -207,7 +213,10 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\CoffeeMakerSystem\Index.cshtml" />
-    <Content Include="Views\CoffeeMakerSystem\Brew.cshtml" />
+    <Content Include="Views\CoffeeMakerSystem\StartBrewProcess.cshtml" />
+    <Content Include="Views\CoffeeMakerSystem\HeatingCoffee.cshtml" />
+    <Content Include="Views\CoffeeMakerSystem\PouringCoffee.cshtml" />
+    <Content Include="Views\CoffeeMakerSystem\CoffeeReady.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
